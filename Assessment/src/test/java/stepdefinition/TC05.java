@@ -14,7 +14,7 @@ Cart c = new Cart(hooks.driver);
 	@When("he clicks the checkout button")
 	public void he_clicks_the_checkout_button() throws InterruptedException 
 	{	
-		c.updateCart();
+		c.checkoutCart();
 	}
 		
 	@Then("checkout product")

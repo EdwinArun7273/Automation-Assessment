@@ -23,7 +23,7 @@ public class TC04 {
 	public void update_cart() throws IOException 
 	{
 		
-		boolean sts = c.validate();
+		boolean sts = c.validate1();
 		if (sts == true)
 		{
 			assertTrue(true);
