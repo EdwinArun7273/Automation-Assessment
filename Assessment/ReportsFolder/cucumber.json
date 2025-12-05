@@ -1,0 +1,96 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2025-12-05T10:53:02.787Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2448162300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.hooks.before()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify user to enter the store",
+        "description": "",
+        "id": "enter-the-store;verify-user-to-enter-the-store",
+        "after": [
+          {
+            "result": {
+              "duration": 3266769900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is in the enter the store page",
+            "match": {
+              "location": "stepdefinition.TC01.the_user_is_in_the_enter_the_store_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2948263100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "he clicks enter the store button",
+            "match": {
+              "location": "stepdefinition.TC01.he_clicks_enter_the_store_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18964300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to home page",
+            "match": {
+              "location": "stepdefinition.TC01.user_navigates_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EnterTheStore"
+          }
+        ]
+      }
+    ],
+    "name": "Enter The Store",
+    "description": "",
+    "id": "enter-the-store",
+    "keyword": "Feature",
+    "uri": "file:Features/Enter_The_Store.feature",
+    "tags": [
+      {
+        "name": "@EnterTheStore",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
